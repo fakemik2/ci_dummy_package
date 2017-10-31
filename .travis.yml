@@ -7,8 +7,9 @@ python:
 
 install:
   - pip install numpy
-  #- python setup.py -q install
+  - python setup.py -q install
 
 script:
+
   - pytest
 
