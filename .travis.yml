@@ -6,9 +6,9 @@ python:
   - "3.6"
 
 install:
-  - pip install numpy tox
+  - pip install numpy
   #- python setup.py -q install
 
 script:
-  - tox
+  - pytest
 
