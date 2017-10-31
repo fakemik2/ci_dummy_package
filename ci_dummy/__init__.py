@@ -1,1 +1,1 @@
-from .dummy_main import arange_basic,double
+from .dummy_main import arange_basic,double,triple

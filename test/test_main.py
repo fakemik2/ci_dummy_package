@@ -10,3 +10,6 @@ def test_arange_basic():
 
 def test_double():
     assert ci_dummy.double(3)==6
+
+def test_triple()
+    assert ci_dummy.triple(3)==9
