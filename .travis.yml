@@ -6,11 +6,15 @@ python:
   - "3.6"
 
 install:
-  - pip install numpy python-coveralls --use-mirrors
+
+  - pip install numpy
   - python setup.py -q install
 
+  #testing dependencies:
+  - pip install codecov pytest-cov
+
 script:
-  - pytest --doctest-modules --pep8 coveralls -v --cov ci_dummy --cov-report term-missing
+  - pytest --cov=./
 
 
 after_success:

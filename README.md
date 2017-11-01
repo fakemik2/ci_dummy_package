@@ -5,7 +5,7 @@ test out misc CI tools ++
 ## What to test?
 - pytest+~~nox~~+travis ![build]
 - requires.io ![requires]
-- coveralls.io / codecov.io / codeclimate.com
+- ~~coveralls.io~~ / codecov.io / ~~codeclimate.com~~
 - landscape.io / scrutinizer.ci.com / codacy.com
 
 
