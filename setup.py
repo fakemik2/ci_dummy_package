@@ -13,6 +13,6 @@ setup(
         author = 'fakemik2',
         author_email = 'fakemik2@gmail.com',
         description = 'testing ci services ++',
-        packages=find_packages(),
+        packages=['ci_dummy'],#find_packages(),
         install_requires = ['numpy>=1.5.0'],
 )
