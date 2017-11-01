@@ -14,7 +14,7 @@ install:
   - pip install codecov pytest-cov
 
 script:
-  - pytest --cov=./
+  - pytest --cov=ci_dummy
 
 
 after_success:
