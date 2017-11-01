@@ -6,10 +6,12 @@ python:
   - "3.6"
 
 install:
-  - pip install numpy
+  - pip install numpy python-coveralls --use-mirrors
   - python setup.py -q install
 
 script:
+  - pytest --doctest-modules --pep8 coveralls -v --cov coveralls --cov-report term-missing
 
-  - pytest
 
+after_success:
+  - coveralls
