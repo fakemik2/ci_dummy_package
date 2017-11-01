@@ -1,0 +1,3 @@
+[run]
+source = ci_dummy
+branch = True
