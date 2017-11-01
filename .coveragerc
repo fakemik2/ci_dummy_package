@@ -1,3 +1,4 @@
 [run]
 source = ci_dummy
 branch = True
+omit = */__init__.py
