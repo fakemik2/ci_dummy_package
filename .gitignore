@@ -1,4 +1,7 @@
-.tox
+*.py[cod]
+*.egg
 *.egg-info
-*.pyc
-/**/__pycache__
+
+#Testing
+.tox
+.coverage
